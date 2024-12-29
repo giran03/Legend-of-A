@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8576609403128794280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 827
+    y: 269
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ancient Storyteller
+    text: Diwata was more than a warrior; she was the soul of her people. Her death
+      was not the end but a beginning.
+    characterSprite: {fileID: 2056085214071164464, guid: adb7affce0557864ab6b8f430e06cedc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -418761778096457178}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-8113790074083578334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 633
+    y: 587
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ancient Storyteller
+    text: Time erodes memory, but the mountain endures. It is up to you to remind
+      the people of her sacrifice.
+    characterSprite: {fileID: 2056085214071164464, guid: adb7affce0557864ab6b8f430e06cedc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1381377540792513916}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5198933086505916211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 629
+    y: 889
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ancient Storyteller
+    text: Go with courage, young warrior. The mountain awaits.
+    characterSprite: {fileID: 2056085214071164464, guid: adb7affce0557864ab6b8f430e06cedc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: enableMovement
+--- !u!114 &-4883805863906449835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 603
+    y: 112
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "Storyteller, I\u2019ve come to learn the final truth of Diwata\u2019s
+      story."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 2484376689577512175}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2384071731809893220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 629
+    y: 746
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: I will. Her story deserves to be known.
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5198933086505916211}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1381377540792513916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 874
+    y: 587
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ancient Storyteller
+    text: Climb to the peak, Ali, and you will meet her spirit. Only then will you
+      truly understand.
+    characterSprite: {fileID: 2056085214071164464, guid: adb7affce0557864ab6b8f430e06cedc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2384071731809893220}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-418761778096457178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1067
+    y: 268
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ancient Storyteller
+    text: The mountain rose to embody her spirit, to shield and nourish the land.
+    characterSprite: {fileID: 2056085214071164464, guid: adb7affce0557864ab6b8f430e06cedc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8970735453465803061}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Ancient Storyteller
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -4883805863906449835}
+  - {fileID: 2484376689577512175}
+  - {fileID: -8576609403128794280}
+  - {fileID: -418761778096457178}
+  - {fileID: 8970735453465803061}
+  - {fileID: -8113790074083578334}
+  - {fileID: -1381377540792513916}
+  - {fileID: -2384071731809893220}
+  - {fileID: -5198933086505916211}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &2484376689577512175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 610
+    y: 264
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ancient Storyteller
+    text: 'Ah, Ali. The mountain chose wisely. '
+    characterSprite: {fileID: 2056085214071164464, guid: adb7affce0557864ab6b8f430e06cedc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -8576609403128794280}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8970735453465803061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 623
+    y: 425
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: But why do so few remember her?
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -8113790074083578334}
+  isExternalFunc: 0
+  externalFunctionName: 

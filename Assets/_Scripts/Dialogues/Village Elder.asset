@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8665457028344247963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 800
+    y: 422
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Village Elder
+    text: Mt. Magdiwata does not call to just anyone. Only the chosen hear its whispers.
+    characterSprite: {fileID: 1121058205457094151, guid: b96cc187cd38dce46996ceaf55a1461c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1405798400125632299}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-7991333016333168321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 572
+    y: 595
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: Diwata? The name sounds familiar, but I know little of her.
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1373022698156442567}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-1373022698156442567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 575
+    y: 744
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Village Elder
+    text: Diwata was a warrior, a protector of her people. Long ago, she gave her
+      life to ensure our survival. It is said the mountain took her form to shield
+      us even after death.
+    characterSprite: {fileID: 1121058205457094151, guid: b96cc187cd38dce46996ceaf55a1461c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 5551895146843888819}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Village Elder
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 39100584783578193}
+  - {fileID: 1934187706430499399}
+  - {fileID: 8832242193820445787}
+  - {fileID: -8665457028344247963}
+  - {fileID: 1405798400125632299}
+  - {fileID: -7991333016333168321}
+  - {fileID: -1373022698156442567}
+  - {fileID: 5551895146843888819}
+  - {fileID: 1523150041941679450}
+  - {fileID: 6340151629905950385}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &39100584783578193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 575
+    y: 248
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: Elder, I have felt... something.
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1934187706430499399}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1405798400125632299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1027
+    y: 427
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Village Elder
+    text: You are brave, as Diwata once was. Perhaps the mountain sees her spirit
+      in you.
+    characterSprite: {fileID: 1121058205457094151, guid: b96cc187cd38dce46996ceaf55a1461c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7991333016333168321}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1523150041941679450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 572
+    y: 900
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: I will find him. Thank you, Elder.
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 6340151629905950385}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1934187706430499399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 825
+    y: 238
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: A voice, a pull, coming from the mountain. Do you know what it is?
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8832242193820445787}
+  isExternalFunc: 0
+  externalFunctionName: enableMovement
+--- !u!114 &5551895146843888819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 830
+    y: 751
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Village Elder
+    text: If you truly wish to uncover her story, seek Hermit Fajardo at the outskirts.
+      He knows more about the myths than anyone.
+    characterSprite: {fileID: 1121058205457094151, guid: b96cc187cd38dce46996ceaf55a1461c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1523150041941679450}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6340151629905950385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 571
+    y: 1049
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Village Elder
+    text: "Go with courage, Ali. And remember, the mountain\u2019s call is both a
+      gift and a burden."
+    characterSprite: {fileID: 1121058205457094151, guid: b96cc187cd38dce46996ceaf55a1461c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: enableMovement
+--- !u!114 &8832242193820445787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 572
+    y: 421
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Village Elder
+    text: Ah, Ali, it is no ordinary feeling.
+    characterSprite: {fileID: 1121058205457094151, guid: b96cc187cd38dce46996ceaf55a1461c, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -8665457028344247963}
+  isExternalFunc: 0
+  externalFunctionName: 

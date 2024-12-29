@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7759318795316259479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 888
+    y: -24
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Riverkeeper
+    text: Look around, Ali. The water you see flows from her tears, shed for her
+      people and her unborn child.
+    characterSprite: {fileID: 2204088099907388707, guid: c0a7f6ffed8f3d646b92cd4dc6727567, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 5677122322157712262}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6933468146780407646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 654
+    y: 313
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Riverkeeper
+    text: Yes. Even in death, she protects us. But the people no longer remember.
+    characterSprite: {fileID: 2204088099907388707, guid: c0a7f6ffed8f3d646b92cd4dc6727567, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1393738207211559366}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4955831235449207143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 642
+    y: -26
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Riverkeeper
+    text: You seek her truth?
+    characterSprite: {fileID: 2204088099907388707, guid: c0a7f6ffed8f3d646b92cd4dc6727567, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7759318795316259479}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-771155742010995356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 668
+    y: 483
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "Thank you. I\u2019ll make sure her story is never forgotten."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3383855314530753706}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Riverkeeper
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 2614024670814340860}
+  - {fileID: -4955831235449207143}
+  - {fileID: -7759318795316259479}
+  - {fileID: 5677122322157712262}
+  - {fileID: 3687951250383395678}
+  - {fileID: -6933468146780407646}
+  - {fileID: 1393738207211559366}
+  - {fileID: -771155742010995356}
+  - {fileID: 3383855314530753706}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1393738207211559366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 895
+    y: 314
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Riverkeeper
+    text: If you wish to honor her, find the ancient storyteller in the highland
+      clearing. He holds the final pieces of her tale.
+    characterSprite: {fileID: 2204088099907388707, guid: c0a7f6ffed8f3d646b92cd4dc6727567, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -771155742010995356}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2614024670814340860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 643
+    y: -188
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "Riverkeeper, I seek the truth of Diwata\u2019s story."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4955831235449207143}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &3383855314530753706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 674
+    y: 643
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Riverkeeper
+    text: "The mountain\u2019s call has brought you this far, Ali. Do not turn away
+      now."
+    characterSprite: {fileID: 2204088099907388707, guid: c0a7f6ffed8f3d646b92cd4dc6727567, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: enableMovement
+--- !u!114 &3687951250383395678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 650
+    y: 146
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "She gave everything, didn\u2019t she?"
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6933468146780407646}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5677122322157712262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1119
+    y: -26
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Riverkeeper
+    text: Her love for this land runs deeper than any river.
+    characterSprite: {fileID: 2204088099907388707, guid: c0a7f6ffed8f3d646b92cd4dc6727567, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3687951250383395678}
+  isExternalFunc: 0
+  externalFunctionName: 

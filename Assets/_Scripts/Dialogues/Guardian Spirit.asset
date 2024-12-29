@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8297090915383449204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 557
+    y: 307
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: "Indeed, I am the keeper of Diwata\u2019s memory."
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3791279523019684107}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5846458319069196176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 567
+    y: 1111
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "I\u2019m ready. Her story must be told."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1520039199777474674}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5831991801759396157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 788
+    y: 622
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: "The waters you drink, the trees that shade you\u2014they are all her gift.
+      But the people have forgotten her story."
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 5725261041566559173}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5592382636287070438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 567
+    y: 941
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: 'Seek the riverkeeper by the waterfalls. He guards a relic tied to her
+      past. '
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 356908982405321749}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3791279523019684107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 787
+    y: 307
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: You have come far, Ali. Few reach this place.
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2893138606688454627}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2893138606688454627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 551
+    y: 464
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: I need to know her story. Why does the mountain call to me?
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 9150564091330453111}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Guardian Spirit
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 4398175911929052117}
+  - {fileID: -8297090915383449204}
+  - {fileID: -3791279523019684107}
+  - {fileID: -2893138606688454627}
+  - {fileID: 9150564091330453111}
+  - {fileID: -5831991801759396157}
+  - {fileID: 5725261041566559173}
+  - {fileID: -5592382636287070438}
+  - {fileID: 5431392198510481368}
+  - {fileID: 356908982405321749}
+  - {fileID: -5846458319069196176}
+  - {fileID: 1520039199777474674}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &356908982405321749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 805
+    y: 936
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: I need to know her story. Why does the mountain call to me?
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5846458319069196176}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &1520039199777474674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 576
+    y: 1276
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: Then go, young warrior. The mountain watches over you.
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: enableMovement
+--- !u!114 &4398175911929052117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 549
+    y: 149
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: Are you... the guardian spirit?
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -8297090915383449204}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &5431392198510481368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1166
+    y: 526
+    width: 190
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - 
+  parentSentenceNode: {fileID: 0}
+  childSentenceNodes: []
+--- !u!114 &5725261041566559173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 558
+    y: 786
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: How can I uncover what has been forgotten?
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5592382636287070438}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &9150564091330453111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 549
+    y: 612
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Guardian Spirit
+    text: "Diwata\u2019s sacrifice was not just for her people but for the land itself.
+      When her life ended, her spirit merged with the earth"
+    characterSprite: {fileID: 8725576594018840212, guid: 678b5a449e5172c4fab8b76606fafc00, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5831991801759396157}
+  isExternalFunc: 0
+  externalFunctionName: 

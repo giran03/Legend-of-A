@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6679892235436019159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 1070
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "And the mountain\u2019s call?"
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3593399014996581019}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6630446483243166137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 459
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "I\u2019m ready to listen."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7997534339774635631}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6582019662866698924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 743
+    y: 900
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: The grief of her death consumed the king, her husband.
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7906969471423786611}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-5727905693558926436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 918
+    y: 609
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: But her bravery cost her dearly.
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 1784270753647811998}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3593399014996581019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 503
+    y: 1223
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: It is her spirit. She calls to those who must carry her story forward.
+      If you wish to continue, travel to the forest shrine. There you will meet the
+      guardian spirit, who can guide you further.
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2012050057921491953}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-3165795606380423137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 714
+    y: 607
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: "She was not just fierce in battle; she was their hope. Even when life
+      demanded she rest\u2014when she carried a child within her\u2014she refused
+      to stand down..."
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5727905693558926436}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2012050057921491953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 509
+    y: 1363
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "Thank you, Fajardo. I\u2019ll honor her story."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7544327132038597815}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Hermit Fajarado
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 8805729586812635014}
+  - {fileID: 7382780032664487213}
+  - {fileID: -6630446483243166137}
+  - {fileID: 7997534339774635631}
+  - {fileID: -3165795606380423137}
+  - {fileID: -5727905693558926436}
+  - {fileID: 1784270753647811998}
+  - {fileID: 6167057471768993496}
+  - {fileID: -6582019662866698924}
+  - {fileID: 7906969471423786611}
+  - {fileID: -6679892235436019159}
+  - {fileID: -3593399014996581019}
+  - {fileID: -2012050057921491953}
+  - {fileID: 7544327132038597815}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1784270753647811998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 494
+    y: 759
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "She fought while pregnant? That\u2019s unimaginable."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 6167057471768993496}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &6167057471768993496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 902
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: She did. In her final battle, she was struck down, along with the child
+      she carried
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6582019662866698924}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7382780032664487213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 320
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: "The mountain, yes\u2026 and the warrior it protects. Sit, young one. What
+      you seek is not a simple tale."
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6630446483243166137}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7544327132038597815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 513
+    y: 1502
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: Be careful, Ali. The mountain tests all who approach. Your journey is just
+      beginning.
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: enableMovement
+--- !u!114 &7906969471423786611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 971
+    y: 904
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: He named the land after her, and over time, the mountain itself seemed
+      to rise, taking the shape of her resting form.
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6679892235436019159}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &7997534339774635631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 499
+    y: 603
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hermit Fajardo
+    text: Long ago, Diwata was a defender of her people.
+    characterSprite: {fileID: -7944926956135514563, guid: 09f3af5f18e007e4fb69fe50fb4f8ce9, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3165795606380423137}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &8805729586812635014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 497
+    y: 178
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ali
+    text: "Fajardo, the Elder sent me to you. I need to know more about Mt. Magdiwata
+      and Diwata\u2019s story."
+    characterSprite: {fileID: -7626213646343515624, guid: c6b70daba18b5e242a3e44868bca3410, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7382780032664487213}
+  isExternalFunc: 0
+  externalFunctionName: 
