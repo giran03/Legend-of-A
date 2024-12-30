@@ -42,9 +42,16 @@ namespace cherrydev
 
         public DialogExternalFunctionsHandler ExternalFunctionsHandler { get; private set; }
 
+        bool skipDialogue;
+
         private void Awake()
         {
             ExternalFunctionsHandler = new DialogExternalFunctionsHandler();
+        }
+
+        private void Start()
+        {
+            PlayerController._playerInput.actions["Next Dialogue"].started += ctx => skipDialogue = true;
         }
 
         private void Update()
@@ -80,7 +87,6 @@ namespace cherrydev
 
             if (dialogNodeGraph.nodesList == null)
             {
-                Debug.LogWarning("Dialog Graph's node list is empty");
                 return;
             }
 
@@ -150,6 +156,7 @@ namespace cherrydev
             SentenceNode sentenceNode = (SentenceNode)currentNode;
 
             isCurrentSentenceSkipped = false;
+            skipDialogue = false;
 
             OnSentenceNodeActive?.Invoke();
             OnSentenceNodeActiveWithParameter?.Invoke(sentenceNode.GetSentenceCharacterName(), sentenceNode.GetSentenceText(),
@@ -209,8 +216,6 @@ namespace cherrydev
         {
             if (dialogNodeGraph.nodesList.Count == 0)
             {
-                Debug.LogWarning("The list of nodes in the DialogNodeGraph is empty");
-
                 return;
             }
 
@@ -335,8 +340,8 @@ namespace cherrydev
         private bool CheckNextSentenceKeyCodes()
         {
             for (int i = 0; i < nextSentenceKeyCodes.Count; i++)
-            { 
-                if (Input.GetKeyDown(nextSentenceKeyCodes[i]))
+            {
+                if (skipDialogue)
                 {
                     return true;
                 }

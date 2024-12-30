@@ -94,7 +94,16 @@
                     "id": "af19b733-a07b-4bc0-bd2a-038f4c2654e4",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "Tap",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Next Dialogue",
+                    "type": "Button",
+                    "id": "e6573fba-d8f3-4dab-abc3-649e1ef1c0b9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
                     "initialStateCheck": false
                 }
             ],
@@ -102,11 +111,22 @@
                 {
                     "name": "",
                     "id": "2c848ff8-d2f9-452d-998d-c85d28b8ff9a",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "Tap Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17c3ea5c-4d58-483d-867e-ef577fbe6646",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Dialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

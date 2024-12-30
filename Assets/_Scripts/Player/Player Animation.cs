@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using NUnit.Framework;
 using SHG.AnimatorCoder;
 using UnityEngine;
 using UnityEngine.InputSystem;
