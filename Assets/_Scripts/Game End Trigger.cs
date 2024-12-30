@@ -14,6 +14,8 @@ public class GameEndTrigger : MonoBehaviour
             _endGamePanel.SetActive(true);
 
             other.GetComponent<PlayerController>().DisableMovement();
+
+            gameObject.SetActive(false);
         }
     }
 }
